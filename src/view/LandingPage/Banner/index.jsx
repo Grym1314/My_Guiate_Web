@@ -6,8 +6,8 @@ function Banner() {
 					<div className="content">
 						<div className="header">
 							<h2>Prepara y elige tu propio futuro</h2>
-							<p>And there are no hoverboards or flying cars.<br />
-							Just apps. Lots of mother flipping apps.</p>
+							<p>Guiate te ofrece la capacidad de prepararte para el examen de admision <br />
+							de cualquier Univerdidad de la Republica mexicana. De manera gratuita y actualizada.</p>
 						</div>
 						<span className="image-banner"><img src="src/assets/Banner/pic01.jpg" alt="" /></span>
 					</div>
