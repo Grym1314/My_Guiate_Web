@@ -1,72 +1,109 @@
-#banner {
+.banner-holder{
     background-attachment: fixed;
-    background-color: _palette(accent2);
-    background-image: url('../../images/banner.jpg');
+    background-color: #272833;
+    background-image: url("src/assets/Banner/banner.jpg");
     background-position: center center;
     background-size: cover;
-    box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25);
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
     min-height: 100vh;
     position: relative;
     text-align: center;
-    z-index: (_misc(max-spotlight) + 1);
+    z-index: 21;
+}
+.banner-holder::before{
+    content: '';
+    display: inline-block;
+    height: 100vh;
+    vertical-align: middle;
+    width: 1%;
+}
 
-    &:before {
-        content: '';
-        display: inline-block;
-        height: 100vh;
-        vertical-align: middle;
-        width: 1%;
-    }
+.banner-holder::after{
+    background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+    background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+    background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+    background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
 
-    &:after {
-        @include vendor('background-image', ('linear-gradient(top, #{_palette(bg-transparent)}, #{_palette(bg-transparent)})', 'url("images/overlay.png");'));
-        content: '';
-        display: block;
-        height: 100%;
-        left: 0;
-        position: absolute;
-        top: 0;
-        width: 100%;
-    }
+.content{
+    display: inline-block;
+    margin-right: 1%;
+    max-width: 95%;
+    padding: 6em;
+    position: relative;
+    text-align: right;
+    vertical-align: middle;
+    z-index: 1;
+}
 
-    .content {
-        display: inline-block;
-        margin-right: 1%;
-        max-width: 95%;
-        padding: $size-wrapper-pad-tb;
-        position: relative;
-        text-align: right;
-        vertical-align: middle;
-        z-index: 1;
+.header{
+    display: inline-block;
+    vertical-align: middle;
+}
 
-        header {
-            display: inline-block;
-            vertical-align: middle;
+.header h2{
+    font-size: 2.5em;
+    margin: 0;
+}
 
-            h2 {
-                font-size: 2.5em;
-                margin: 0;
-            }
+.header p{
+    margin: 0.5em 0 0 0;
+    top: 0;
+}
 
-            p {
-                margin: (_size(element-margin) * 0.25) 0 0 0;
-                top: 0;
-            }
-        }
+.image-banner{
+    border-radius: 100%;
+    display: inline-block;
+    height: 18em;
+    margin-left: 3em;
+    vertical-align: middle;
+    width: 18em;
+}
 
-        .image {
-            border-radius: 100%;
-            display: inline-block;
-            height: 18em;
-            margin-left: 3em;
-            vertical-align: middle;
-            width: 18em;
+.image-banner img{
+    border-radius: 100%;
+    display: block;
+    width: 100%;
+}
 
-            img {
-                border-radius: 100%;
-                display: block;
-                width: 100%;
-            }
-        }
-    }
+body.is-touch .banner-holder{
+    background-attachment: scroll;
+}
+
+.next-landing{
+    border: 0;
+    bottom: 0;
+    display: block;
+    height: 5em;
+    left: 50%;
+    margin: 0 0 0 -5em;
+    overflow: hidden;
+    position: absolute;
+    text-indent: 10em;
+    white-space: nowrap;
+    width: 10em;
+    z-index: 1;
+}
+
+.next-landing::before{
+    background-image: url('src/assets/Banner/arrow.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    display: block;
+    height: 1.5em;
+    left: 50%;
+    margin: -0.75em 0 0 -1em;
+    position: absolute;
+    top: 50%;
+    width: 2em;
+    z-index: 1;
 }

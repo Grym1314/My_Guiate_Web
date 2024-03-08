@@ -4,13 +4,14 @@ function Banner() {
     return (
       <div className='banner-holder'>
 					<div className="content">
-						<header>
-							<h2>The future has landed</h2>
+						<div className="header">
+							<h2>Prepara y elige tu propio futuro</h2>
 							<p>And there are no hoverboards or flying cars.<br />
 							Just apps. Lots of mother flipping apps.</p>
-						</header>
-						<span className="image-banner"><img src="images/pic01.jpg" alt="" /></span>
+						</div>
+						<span className="image-banner"><img src="src/assets/Banner/pic01.jpg" alt="" /></span>
 					</div>
+          <a href="#one" className="next-landing scrolly">Next</a>
       </div>
     )
   }
