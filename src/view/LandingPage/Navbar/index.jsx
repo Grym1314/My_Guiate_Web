@@ -2,17 +2,33 @@ import './navBar.css';
 
 function navBar() {
     return (
-      <div className='banner-holder'>
-					<div className="content">
-						<div className="header">
-							<h2>Prepara y elige tu propio futuro</h2>
-							<p>Guiate te ofrece la capacidad de prepararte para el examen de admision <br />
-							de cualquier Univerdidad de la Republica mexicana. De manera gratuita y actualizada.</p>
-						</div>
-						<span className="image-banner"><img src="src/assets/Banner/pic01.jpg" alt="" /></span>
-					</div>
-          <a href="#one" className="next-landing scrolly">Next</a>
-      </div>
+		<div className="nav-Bar">
+		<h1 className="logo"><a href="index.html">Guiate</a></h1>
+		<nav className="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li>
+					<a href="#">Layouts</a>
+					<ul>
+						<li><a href="left-sidebar.html">Left Sidebar</a></li>
+						<li><a href="right-sidebar.html">Right Sidebar</a></li>
+						<li><a href="no-sidebar.html">No Sidebar</a></li>
+						<li>
+							<a href="#">Submenu</a>
+							<ul>
+								<li><a href="#">Option 1</a></li>
+								<li><a href="#">Option 2</a></li>
+								<li><a href="#">Option 3</a></li>
+								<li><a href="#">Option 4</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="elements.html">Elements</a></li>
+				<li><a href="#" className="button-primary">Sign Up</a></li>
+			</ul>
+		</nav>
+	</div>
     )
   }
   
