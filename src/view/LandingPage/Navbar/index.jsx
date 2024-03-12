@@ -4,7 +4,7 @@ function navBar() {
     return (
 		<div className="nav-Bar">
 		<h1 className="logo"><a href="index.html">Guiate</a></h1>
-		<nav className="nav">
+		<div className="nav">
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li>
@@ -27,7 +27,7 @@ function navBar() {
 				<li><a href="elements.html">Elements</a></li>
 				<li><a href="#" className="button-primary">Sign Up</a></li>
 			</ul>
-		</nav>
+		</div>
 	</div>
     )
   }
