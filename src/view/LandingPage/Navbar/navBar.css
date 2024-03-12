@@ -25,43 +25,43 @@
   right: 1em;
   top: 0;
 }
-  
+
 .nav-line ul {
-    margin: 0;
+  margin: 0;
 }
 
 .nav-line > li {
-      display: inline-block;
-      margin-left: 1em;
+  display: inline-block;
+  margin-left: 1em;
+}
 
-      a,
-      span {
-        border: 0;
-        color: inherit;
-        display: inline-block;
-        height: inherit;
-        line-height: inherit;
-        outline: 0;
+a,
+span {
+  border: 0;
+  color: inherit;
+  display: inline-block;
+  height: inherit;
+  line-height: inherit;
+  outline: 0;
+}
 
-        &.button {
-          height: 2em;
-          line-height: 2em;
-          padding: 0 1.25em;
-        }
+a.button {
+  height: 2em;
+  line-height: 2em;
+  padding: 0 1.25em;
+}
 
-        &:not(.button):before {
-          margin-right: 0.5em;
-        }
-      }
+a:not(.button):before {
+  margin-right: 0.5em;
+}
 
-      &.active {
-        > a,
-        > span {
-          color: _palette(accent1);
-        }
-      }
+li.active {
+  > a,
+  > span {
+    color: _palette(accent1);
+  }
+}
 
-      > ul {
-        display: none;
-      }
-    }
+li > ul {
+  display: none;
+}
