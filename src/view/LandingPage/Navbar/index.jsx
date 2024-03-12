@@ -4,7 +4,7 @@ function navBar() {
     return (
 		<div className="nav-Bar">
 		<h1 className="logo"><a href="index.html">Guiate</a></h1>
-		<div className="nav">
+		<div className="nav-line">
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li>
