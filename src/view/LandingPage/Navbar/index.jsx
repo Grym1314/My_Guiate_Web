@@ -1,6 +1,6 @@
 import './navBar.css';
 
-function navBar() {
+function NavBar() {
     return (
 		<div className="nav-Bar">
 		<h1 className="logo"><a href="index.html">Guiate</a></h1>
@@ -32,4 +32,4 @@ function navBar() {
     )
   }
   
-  export default navBar
+  export default NavBar
