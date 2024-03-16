@@ -35,8 +35,7 @@
   margin-left: 1em;
 }
 
-a,
-span {
+a, span {
   border: 0;
   color: inherit;
   display: inline-block;
