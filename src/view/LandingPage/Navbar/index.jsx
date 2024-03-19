@@ -8,7 +8,7 @@ function NavBar() {
 			</div>
 			<div className="nav-line">
 				<ul>
-					<li><a href="index.html">Inicio</a></li>
+					<div className='inicio'><a href="index.html">Inicio</a></div>
 					<li>
 						<a href="#">Guias</a>
 						<ul>
