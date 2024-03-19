@@ -7,19 +7,17 @@ function NavBar() {
 				<h1><a href="main.jsx">Guiate</a></h1>
 			</div>
 			<div className="nav-line">
-				<ul>
 					<div className='inicio'><a href="index.html">Inicio</a></div>
-					<li>
+					<div className='guias'>
 						<a href="#">Guias</a>
 						<ul>
 							<li><a href="left-sidebar.html">Left Sidebar</a></li>
 							<li><a href="right-sidebar.html">Right Sidebar</a></li>
 							<li><a href="no-sidebar.html">No Sidebar</a></li>
 						</ul>
-					</li>
-					<div className="Escuelas"><a href="elements.html">Escuelas</a></div>
-					<li><a href="#" className="button-primary">Inicia Sesion</a></li>
-				</ul>
+					</div>
+					<div className="escuelas"><a href="">Escuelas</a></div>
+					<div className='login'><a href="#" className="button-primary">Inicia Sesion</a></div>
 			</div>
 		</div>
     )
