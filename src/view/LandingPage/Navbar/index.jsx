@@ -17,7 +17,7 @@ function NavBar() {
 							<li><a href="no-sidebar.html">No Sidebar</a></li>
 						</ul>
 					</li>
-					<li><a href="elements.html">Escuelas</a></li>
+					<div className="Escuelas"><a href="elements.html">Escuelas</a></div>
 					<li><a href="#" className="button-primary">Inicia Sesion</a></li>
 				</ul>
 			</div>
