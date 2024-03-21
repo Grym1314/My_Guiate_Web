@@ -10,11 +10,11 @@ function NavBar() {
 					<div className='inicio'><a href="index.html">Inicio</a></div>
 					<div className='guias'>
 						<a href="#">Guias</a>
-						<ul>
+						{/* <ul>
 							<li><a href="left-sidebar.html">Left Sidebar</a></li>
 							<li><a href="right-sidebar.html">Right Sidebar</a></li>
 							<li><a href="no-sidebar.html">No Sidebar</a></li>
-						</ul>
+						</ul> */}
 					</div>
 					<div className="escuelas"><a href="">Escuelas</a></div>
 					<div className='login'><a href="#" className="button-primary">Inicia Sesion</a></div>
