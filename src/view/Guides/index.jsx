@@ -1,6 +1,6 @@
 function guides() {
   return (
-    <div id="main">
+    <div className="main">
       <div className="inner">
         <header>
           <h1>
@@ -15,8 +15,8 @@ function guides() {
             ipsum dolor sit amet nullam dolore.
           </p>
         </header>
-        <section className="tiles">
-          <article className="style1">
+        <div className="tiles">
+          <div className="style1">
             <span className="image">
               <img src="images/pic01.jpg" alt="" />
             </span>
@@ -29,8 +29,8 @@ function guides() {
                 </p>
               </div>
             </a>
-          </article>
-          <article className="style2">
+          </div>
+          <div className="style2">
             <span className="image">
               <img src="images/pic02.jpg" alt="" />
             </span>
@@ -43,8 +43,8 @@ function guides() {
                 </p>
               </div>
             </a>
-          </article>
-          <article className="style3">
+          </div>
+          <div className="style3">
             <span className="image">
               <img src="images/pic03.jpg" alt="" />
             </span>
@@ -57,8 +57,8 @@ function guides() {
                 </p>
               </div>
             </a>
-          </article>
-          <article className="style4">
+          </div>
+          <div className="style4">
             <span className="image">
               <img src="images/pic04.jpg" alt="" />
             </span>
@@ -71,8 +71,8 @@ function guides() {
                 </p>
               </div>
             </a>
-          </article>
-          <article className="style5">
+          </div>
+          <div className="style5">
             <span className="image">
               <img src="images/pic05.jpg" alt="" />
             </span>
@@ -85,8 +85,8 @@ function guides() {
                 </p>
               </div>
             </a>
-          </article>
-          <article className="style6">
+          </div>
+          <div className="style6">
             <span className="image">
               <img src="images/pic06.jpg" alt="" />
             </span>
@@ -99,8 +99,8 @@ function guides() {
                 </p>
               </div>
             </a>
-          </article>
-          <article className="style2">
+          </div>
+          <div className="style2">
             <span className="image">
               <img src="images/pic07.jpg" alt="" />
             </span>
@@ -113,8 +113,8 @@ function guides() {
                 </p>
               </div>
             </a>
-          </article>
-          <article className="style3">
+          </div>
+          <div className="style3">
             <span className="image">
               <img src="images/pic08.jpg" alt="" />
             </span>
@@ -127,8 +127,8 @@ function guides() {
                 </p>
               </div>
             </a>
-          </article>
-          <article className="style1">
+          </div>
+          <div className="style1">
             <span className="image">
               <img src="images/pic09.jpg" alt="" />
             </span>
@@ -141,8 +141,8 @@ function guides() {
                 </p>
               </div>
             </a>
-          </article>
-          <article className="style5">
+          </div>
+          <div className="style5">
             <span className="image">
               <img src="images/pic10.jpg" alt="" />
             </span>
@@ -155,8 +155,8 @@ function guides() {
                 </p>
               </div>
             </a>
-          </article>
-          <article className="style6">
+          </div>
+          <div className="style6">
             <span className="image">
               <img src="images/pic11.jpg" alt="" />
             </span>
@@ -169,8 +169,8 @@ function guides() {
                 </p>
               </div>
             </a>
-          </article>
-          <article className="style4">
+          </div>
+          <div className="style4">
             <span className="image">
               <img src="images/pic12.jpg" alt="" />
             </span>
@@ -183,8 +183,8 @@ function guides() {
                 </p>
               </div>
             </a>
-          </article>
-        </section>
+          </div>
+        </div>
       </div>
     </div>
   );
